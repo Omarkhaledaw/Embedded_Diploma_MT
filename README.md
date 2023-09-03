@@ -1,5 +1,6 @@
 # Embedded_Diploma_MT
-## Full Embedded Systems Diploma under supervision of Engineer Mohamed Tarek, The Diploma covered the below topics:
+## Full Embedded Systems Diploma under supervision of Engineer Mohamed Tarek
+### The Diploma covered the below topics:
 - Basic Concepts of Embedded Systems.
 - C Programming.
 - Data Structures (Linked-List, Stack and Queue).
