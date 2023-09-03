@@ -26,12 +26,12 @@ Projects:
   - Drivers: GPIO, Keypad, LCD, Timer, UART, I2C, EEPROM, Buzzer and DC-Motor - Microcontroller: ATmega32.
 
 Embedded Automotive and AUTOSAR Device Drivers Course
-• AUTOSAR Layered Architecture.
-• AUTOSAR Device Drivers.
-• AUTOSAR and C Misra Rules.
-• Automotive buses Lin and Can.
-• Implement Dio and Port AUTOSAR Driver for TM4C Micro-controllers.
-• Final project to apply the full layered architecture model.
+  - AUTOSAR Layered Architecture.
+  - AUTOSAR Device Drivers.
+  - AUTOSAR and C Misra Rules.
+  -  Automotive buses Lin and Can.
+  - Implement Dio and Port AUTOSAR Driver for TM4C Micro-controllers.
+  - Final project to apply the full layered architecture model.
 
 ARM Architecture based on TM4C Micro-controllers Course:
 • ARM Cortex-M Architecture and Programming Model.
