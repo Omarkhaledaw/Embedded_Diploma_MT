@@ -10,7 +10,7 @@
 - Software Engineering.
 - Embedded Tools.
 - HW Labs.
-**Projects:**
+- **Projects:**
 **1. Vehicle-Control-System:**
   - Developing a simple system that displays a mini vehicle infromation display.
 **2. Stop-Watch:**
