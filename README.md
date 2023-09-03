@@ -1,5 +1,5 @@
 # Embedded_Diploma_MT
-Full Embedded Systems Diploma under supervision of Engineer Mohamed Tarek, The Diploma covered the below topics:
+## Full Embedded Systems Diploma under supervision of Engineer Mohamed Tarek, The Diploma covered the below topics:
 - Basic Concepts of Embedded Systems.
 - C Programming.
 - Data Structures (Linked-List, Stack and Queue).
@@ -25,7 +25,7 @@ Projects:
   - Developing a system to unlock a door using a password.
   - Drivers: GPIO, Keypad, LCD, Timer, UART, I2C, EEPROM, Buzzer and DC-Motor - Microcontroller: ATmega32.
 
-Embedded Automotive and AUTOSAR Device Drivers Course
+## Embedded Automotive and AUTOSAR Device Drivers Course
   - AUTOSAR Layered Architecture.
   - AUTOSAR Device Drivers.
   - AUTOSAR and C Misra Rules.
@@ -33,7 +33,7 @@ Embedded Automotive and AUTOSAR Device Drivers Course
   - Implement Dio and Port AUTOSAR Driver for TM4C Micro-controllers.
   - Final project to apply the full layered architecture model.
 
-ARM Architecture based on TM4C Micro-controllers Course:
+## ARM Architecture based on TM4C Micro-controllers Course:
   - ARM Cortex-M Architecture and Programming Model.
   - TM4C Micro-controller GPIO Driver.
   - ARM CortexM3/M4 SysTick Timer Driver.
