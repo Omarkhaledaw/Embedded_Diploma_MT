@@ -10,19 +10,19 @@
 - Software Engineering.
 - Embedded Tools.
 - HW Labs.
-** Projects:
-1. Vehicle-Control-System:
+**Projects:**
+**1. Vehicle-Control-System:**
   - Developing a simple system that displays a mini vehicle infromation display.
-2. Stop-Watch:
+**2. Stop-Watch:**
   - Developing a system that control the stop-watch time and display it on 7-segments.
   - Drivers: GPIO, Timer, External Interrupts and 7-Segement - Microcontroller: ATmega32.
-3. Fan Speed Controller with Temperature:
+**3. Fan Speed Controller with Temperature:**
   - Developing a system that controls the speed of a fan depending on the temperature.
   - Drivers: GPIO, ADC, PWM, LM35 Sensor, LCD and DC-Motor - Microcontroller: ATmega32.
-4. Distance Measuring System:
+**4. Distance Measuring System:**
   - Developing a system that measure the distance and display it on LCD.
   - Drivers: GPIO, ICU, Ultrasonic Sensor and LCD - Microcontroller: ATmega32.
-5. Door Locker Security Systems:
+**5. Door Locker Security Systems:**
   - Developing a system to unlock a door using a password.
   - Drivers: GPIO, Keypad, LCD, Timer, UART, I2C, EEPROM, Buzzer and DC-Motor - Microcontroller: ATmega32.**
 
@@ -31,8 +31,8 @@
   - AUTOSAR Device Drivers.
   - AUTOSAR and C Misra Rules.
   -  Automotive buses Lin and Can.
-  - ** Implement Dio and Port AUTOSAR Driver for TM4C Micro-controllers.**
-  - ** Final project to apply the full layered architecture model.**
+  - **Implement Dio and Port AUTOSAR Driver for TM4C Micro-controllers.**
+  - **Final project to apply the full layered architecture model.**
 
 ## ARM Architecture based on TM4C Micro-controllers Course:
   - ARM Cortex-M Architecture and Programming Model.
