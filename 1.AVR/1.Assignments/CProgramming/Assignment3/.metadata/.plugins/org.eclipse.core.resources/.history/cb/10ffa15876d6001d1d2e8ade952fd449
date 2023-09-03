@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int compareStrings(int a[],int b[]);
+
+int main(){
+	int a[]={1,2,3,4,5};
+	int b[]={6,7,8,9,10};
+	int result;
+
+	printf("Welcome to Exercise 19 Program\n");
+	result = compareStrings(a,b);
+	printf("%d",result);
+
+	return 0;
+}
+int compareStrings(int a[],int b[]){
+
+	int result = 0;
+
+	int i =0;
+	int counta = 0;
+	while(a[i] != '\0'){
+		counta++;
+	}
+	int j =0;
+	int countb = 0;
+	while(a[j] != '\0'){
+		countb++;
+	}
+
+	if(counta != countb){
+		result = 1;
+	}else{
+		result = 0;
+	}
+	return result;
+}

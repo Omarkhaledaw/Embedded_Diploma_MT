@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include<string.h>
+
+void reverser(int arr[]);
+
+
+int main(){
+
+	int arr[5];
+	printf("Welcome to Exercise 1 Program, Please enter a number: ");
+	fflush(stdout);
+	scanf("%d",&arr[0]);
+	for(int i =1;i<5;i++){
+		printf("Great!. Please enter another number: ");
+		fflush(stdout);
+		scanf("%d",&arr[i]);
+	}
+	for(int i =0;i<5;i++){
+		printf("%d ",arr[i]);
+	}
+	reverser(arr);
+	printf("\nAfter reversing\n");
+	for(int i =0;i<5;i++){
+		printf("%d ",arr[i]);
+	}
+	return 0;
+}
+void reverser(int arr[]){
+	int i=0,j=0;
+	int temp;
+	while(arr[i] != '\0'){
+		i++;
+	}
+	while(i<j){
+		temp = arr[j];
+		arr[i] = arr[j];
+		arr[j] = temp;
+		i--;
+		j++;
+	}
+}

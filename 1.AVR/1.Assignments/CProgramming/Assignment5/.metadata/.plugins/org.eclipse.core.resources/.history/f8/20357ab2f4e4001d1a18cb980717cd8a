@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+enum Fan_level{
+	Level_1=1,Level_2,Level_3
+};
+
+
+int main(){
+	union Family_name omar;
+	printf("Welcome to Exercise 6 program please enter your first name: ");
+	fflush(stdout);
+	scanf("%s",omar.first_name);
+
+	printf("%s %d",omar.last_name,sizeof(omar));
+
+
+	return 0;
+}

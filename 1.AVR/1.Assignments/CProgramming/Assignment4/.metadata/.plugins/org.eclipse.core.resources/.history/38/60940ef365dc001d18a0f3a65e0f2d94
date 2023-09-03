@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+
+int main(){
+	void(*ptr_func)(int*,int*);
+	printf("Welcome to Exercise 7 program, please enter a number: ");
+	fflush(stdout);
+	scanf("%d",&num1);
+	printf("Great, now enter another number: ");
+	fflush(stdout);
+	scanf("%d",&num2);
+
+	printf("Before swaping\nNum 1 = %d\nNum 2 = ",num1,num2);
+	bitwiseSwap(&num1,&num2)
+	printf("After swaping\nNum 1 = %d\nNum 2 = ",num1,num2);
+
+	return 0;
+}
+void bitwiseSwap(int* ptr1,int* ptr2){
+	*ptr1 = *ptr1 ^ *ptr2;
+	*ptr2 = *ptr1 ^ *ptr2;
+	*ptr1 = *ptr1 ^ *ptr2;
+}

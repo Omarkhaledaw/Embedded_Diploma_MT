@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+
+int main(){
+
+	int arr[10]={17,0,2,3,6,8,1,7,11,10,4};
+
+	return 0;
+}

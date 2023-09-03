@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int countOnes(unsigned char);
+
+int main(){
+
+	unsigned char num;
+	int result;
+	printf("Welcome to Exercise 15 program, Please enter a number: ");
+	fflush(stdout);
+	scanf("%ud",&num);
+	result = countOnes(num);
+	printf("%d",result);
+
+	return 0;
+}
+int countOnes(unsigned char num){
+	unsigned char mask = 0b10000000;
+	unsigned char i;
+	int count = 0;
+	for(int i =0;i<8;i++){
+		if((num<<i)& mask){
+			count++;
+		}
+	}
+	return count;
+}

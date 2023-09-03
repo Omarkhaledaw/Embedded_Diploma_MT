@@ -1,0 +1,55 @@
+01:59:49 **** Rebuild of configuration Debug for project Exercise20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex20.o "..\\Ex20.c" 
+gcc -o Exercise20.exe Ex20.o 
+Info: Nothing to build for Exercise20
+02:02:32 **** Incremental Build of configuration Debug for project Exercise20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex20.o "..\\Ex20.c" 
+gcc -o Exercise20.exe Ex20.o 
+02:03:29 **** Incremental Build of configuration Debug for project Exercise20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex20.o "..\\Ex20.c" 
+gcc -o Exercise20.exe Ex20.o 
+02:03:43 **** Incremental Build of configuration Debug for project Exercise20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex20.o "..\\Ex20.c" 
+gcc -o Exercise20.exe Ex20.o 
+02:04:09 **** Incremental Build of configuration Debug for project Exercise20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex20.o "..\\Ex20.c" 
+gcc -o Exercise20.exe Ex20.o 
+02:04:31 **** Incremental Build of configuration Debug for project Exercise20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex20.o "..\\Ex20.c" 
+gcc -o Exercise20.exe Ex20.o 
+02:04:44 **** Incremental Build of configuration Debug for project Exercise20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex20.o "..\\Ex20.c" 
+gcc -o Exercise20.exe Ex20.o 
+02:05:21 **** Incremental Build of configuration Debug for project Exercise20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex20.o "..\\Ex20.c" 
+gcc -o Exercise20.exe Ex20.o 
+02:07:14 **** Incremental Build of configuration Debug for project Exercise20 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex20.o "..\\Ex20.c" 
+gcc -o Exercise20.exe Ex20.o 
+Info: Nothing to build for Exercise20
+23:14:08 **** Incremental Build of configuration Debug for project Exercise16 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex16.o "..\\Ex16.c" 
+gcc -o Exercise16.exe Ex16.o 
+23:15:19 **** Incremental Build of configuration Debug for project Exercise16 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex16.o "..\\Ex16.c" 
+gcc -o Exercise16.exe Ex16.o 
+23:15:53 **** Incremental Build of configuration Debug for project Exercise16 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex16.o "..\\Ex16.c" 
+gcc -o Exercise16.exe Ex16.o 
+23:16:11 **** Incremental Build of configuration Debug for project Exercise16 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex16.o "..\\Ex16.c" 
+gcc -o Exercise16.exe Ex16.o 
+Info: Nothing to build for Exercise16

@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+
+int main(){
+
+
+	float temp;
+	int heatingTime;
+	printf("Welcome to Exercise 12 program, Please enter the temperature: ");
+	fflush(stdout);
+	scanf("%f",&temp);
+
+	if((temp >= 0.0)&&(temp <= 30.0)){
+		heatingTime = 7;
+		printf("The required heating time is %d",heatingTime);
+	}else if((temp >= 30.0)&&(temp <= 60.0)){
+		heatingTime = 5;
+		printf("The required heating time is %d",heatingTime);
+	}else if((temp >= 60.0)&&(temp <= 90.0)){
+		heatingTime = 3;
+		printf("The required heating time is %d",heatingTime);
+	}else if((temp >= 90.0)&&(temp <= 100.0)){
+		heatingTime = 1;
+		printf("The required heating time is %d",heatingTime);
+	}else{
+		heatingTime = 0;
+		printf("The required heating time is %d",heatingTime);
+	}
+	return 0;
+}

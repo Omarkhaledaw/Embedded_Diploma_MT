@@ -1,0 +1,13 @@
+15:25:30 **** Rebuild of configuration Debug for project Exercise23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex23.o "..\\Ex23.c" 
+gcc -o Exercise23.exe Ex23.o 
+Info: Nothing to build for Exercise23
+15:26:00 **** Incremental Build of configuration Debug for project Exercise23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex23.o "..\\Ex23.c" 
+gcc -o Exercise23.exe Ex23.o 
+15:26:56 **** Incremental Build of configuration Debug for project Exercise23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex23.o "..\\Ex23.c" 
+gcc -o Exercise23.exe Ex23.o 

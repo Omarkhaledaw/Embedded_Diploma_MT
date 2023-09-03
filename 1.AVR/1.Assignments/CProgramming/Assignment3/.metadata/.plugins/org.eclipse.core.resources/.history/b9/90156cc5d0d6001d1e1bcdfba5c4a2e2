@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int* reverseExelusive(int lowerValue,int upperValue,int *size);
+int g_array[256];
+
+int main(){
+
+
+
+	return 0;
+}
+int* reverseExelusive(int lowerValue,int upperValue,int *size){
+	if(upperValue<lowerValue){
+		g_array[0] = 0xFF;
+		g_array[1] = 0xFF;
+		*size = 2;
+	}else{
+		int range = upperValue-lowerValue-1;
+		for(int i  = 0;i<range;i++){
+			upperValue -=1;
+			g_array[i] = upperValue;
+		}
+	}
+
+
+	return g_array;
+}

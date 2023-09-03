@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int removeDuplicates(int arr_old[], int n_old, int arr_new[], int*n_new);
+
+int main(){
+
+
+
+	return 0;
+}
+int removeDuplicates(int arr_old[], int n_old, int arr_new[], int*n_new){
+
+}

@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+
+int main(){
+
+
+
+	return 0;
+}
+unsigned char reverseBinary(unsigned char num){
+	int numberOfBits = sizeof(num);
+	unsigned char result;
+	for(int i = 0;i<numberOfBits;i++){
+		if((num<<i)&1){
+			result |= (1 << (8*sizeof(num)-i))
+		}
+	}
+	return result;
+}
+void printBinary(unsigned char num){
+
+	int numberOfBits = sizeof(num);
+	unsigned char mask = 1;
+	for(int i=0;i<numberOfBits;i++){
+		if((num<<i) & 1){
+			printf("1 ");
+		}else{
+			printf("0 ");
+		}
+	}
+}

@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+unsigned char RightCircularShift(unsigned int,int,unsigned int *);
+
+int main(){
+
+
+
+	return 0;
+}
+unsigned char RightCircularShift(unsigned int InputNumber, int NumberOfShifts, unsigned int * pOutput){
+	unsigned char result;
+	if(NumberOfShifts > 32){
+		result = 0xFF;
+	}else{
+		*pOutput = InputNumber;
+		result = 0;
+	}
+	return result;
+}

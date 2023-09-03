@@ -1,0 +1,7 @@
+14:16:00 **** Incremental Build of configuration Debug for project Exercise24 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex24.o "..\\Ex24.c" 
+gcc -o Exercise24.exe Ex24.o 
+
+14:16:01 Build Finished. 0 errors, 0 warnings. (took 467ms)
+

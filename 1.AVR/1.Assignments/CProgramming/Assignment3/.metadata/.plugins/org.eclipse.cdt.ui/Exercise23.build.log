@@ -1,0 +1,7 @@
+15:26:56 **** Incremental Build of configuration Debug for project Exercise23 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex23.o "..\\Ex23.c" 
+gcc -o Exercise23.exe Ex23.o 
+
+15:26:56 Build Finished. 0 errors, 0 warnings. (took 460ms)
+

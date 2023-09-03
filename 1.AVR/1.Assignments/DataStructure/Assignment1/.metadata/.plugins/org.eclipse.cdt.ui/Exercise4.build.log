@@ -1,0 +1,24 @@
+00:00:08 **** Incremental Build of configuration Debug for project Exercise4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex4.o "..\\Ex4.c" 
+..\Ex4.c: In function 'insertAtLast':
+..\Ex4.c:42:43: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   42 |         struct Node *link = (struct Node*)malloc(sizeof(struct Node));
+      |                                           ^~~~~~
+..\Ex4.c:2:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+    1 | #include <stdio.h>
+  +++ |+#include <stdlib.h>
+    2 | 
+..\Ex4.c:42:43: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+   42 |         struct Node *link = (struct Node*)malloc(sizeof(struct Node));
+      |                                           ^~~~~~
+..\Ex4.c:42:43: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+..\Ex4.c: In function 'insertBetween':
+..\Ex4.c:74:43: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+   74 |         struct Node *link = (struct Node*)malloc(sizeof(struct Node));
+      |                                           ^~~~~~
+..\Ex4.c:74:43: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o Exercise4.exe Ex4.o 
+
+00:00:08 Build Finished. 0 errors, 3 warnings. (took 508ms)
+

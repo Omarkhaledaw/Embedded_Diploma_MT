@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+int main(){
+
+
+
+	return 0;
+}
+int findSecondLargest(int arr[]){
+	int size = 0;
+	int i = 0;
+	int max = arr[i];
+	int max2;
+
+	while(arr[i] != '\0'){
+
+		i++;
+	}
+}

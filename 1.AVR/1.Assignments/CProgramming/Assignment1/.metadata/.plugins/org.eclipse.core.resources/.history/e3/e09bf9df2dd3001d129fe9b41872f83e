@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+
+int main(){
+	int num,reserved=0,temp;
+	printf("Welcome to Ex16 program please enter a number: ");
+	fflush(stdout);
+	scanf("%d",&num);
+	while(num/10 != 0){
+		temp = num%10;
+		reserved = reserved + (temp *10);
+		num/=10;
+	}
+	printf("%d",reserved);
+	return 0;
+}

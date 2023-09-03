@@ -1,0 +1,11 @@
+LaunchTargetManager/configs/Exercise11.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Exercise14.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Exercise15.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Exercise8.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Exercise1.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise2.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise3.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise4.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise5.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise6.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise7.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise8.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise9.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise10.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise12.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise11.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise13.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise14.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise15.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise16.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise17.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise20.exe,org.eclipse.launchbar.core.descriptorType.default\:Exercise19.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Exercise1.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Exercise1.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

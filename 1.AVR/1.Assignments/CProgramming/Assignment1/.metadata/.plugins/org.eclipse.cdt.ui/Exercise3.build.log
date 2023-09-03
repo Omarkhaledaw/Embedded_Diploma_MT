@@ -1,0 +1,7 @@
+15:00:15 **** Rebuild of configuration Debug for project Exercise3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex3.o "..\\Ex3.c" 
+gcc -o Exercise3.exe Ex3.o 
+
+15:00:15 Build Finished. 0 errors, 0 warnings. (took 496ms)
+

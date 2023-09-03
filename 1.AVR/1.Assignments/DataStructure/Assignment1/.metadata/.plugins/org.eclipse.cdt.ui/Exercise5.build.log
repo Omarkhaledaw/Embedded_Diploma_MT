@@ -1,0 +1,24 @@
+00:23:22 **** Incremental Build of configuration Debug for project Exercise5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex5.o "..\\Ex5.c" 
+..\Ex5.c: In function 'insertAtLast':
+..\Ex5.c:45:43: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   45 |         struct Node *link = (struct Node*)malloc(sizeof(struct Node));
+      |                                           ^~~~~~
+..\Ex5.c:2:1: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+    1 | #include <stdio.h>
+  +++ |+#include <stdlib.h>
+    2 | 
+..\Ex5.c:45:43: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+   45 |         struct Node *link = (struct Node*)malloc(sizeof(struct Node));
+      |                                           ^~~~~~
+..\Ex5.c:45:43: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+..\Ex5.c: In function 'insertBetween':
+..\Ex5.c:77:43: warning: incompatible implicit declaration of built-in function 'malloc' [-Wbuiltin-declaration-mismatch]
+   77 |         struct Node *link = (struct Node*)malloc(sizeof(struct Node));
+      |                                           ^~~~~~
+..\Ex5.c:77:43: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+gcc -o Exercise5.exe Ex5.o 
+
+00:23:22 Build Finished. 0 errors, 3 warnings. (took 506ms)
+

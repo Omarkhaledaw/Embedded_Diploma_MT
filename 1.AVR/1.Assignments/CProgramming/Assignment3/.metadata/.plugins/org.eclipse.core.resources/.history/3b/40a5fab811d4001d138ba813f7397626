@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int fibonacciSeries(int);
+
+int main(){
+
+	int num,result;
+	printf("Welcome to Exercise 9 Program, Please enter a number: ");
+	fflush(stdout);
+	scanf("%d",&num);
+	result = fibonacciSeries(num);
+	printf("The %d term of geometric series %d",num,result);
+
+
+
+	return 0;
+}
+int fibonacciSeries(int num){
+	int arr[250];
+	arr[0] = 0;
+	arr[1] = 1;
+	for(int i= 2;i<num+1;i++){
+		arr[i] = arr[i-1] + arr[i-2];
+	}
+	return arr[num];
+}

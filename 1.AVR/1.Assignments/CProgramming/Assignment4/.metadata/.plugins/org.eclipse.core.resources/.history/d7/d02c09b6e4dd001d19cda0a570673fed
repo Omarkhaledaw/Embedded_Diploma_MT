@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+
+
+int main(){
+
+
+
+	return 0;
+}
+int findTheOddOne(int *arr[],int size){
+	int count = 0;
+
+	for(int i = 0;i<size;i++){
+		for(int j = 0;j<j<size;j++){
+			if(arr[i] == arr[j]){
+				count++;
+			}
+		}
+		if(count%2 == 0){
+			count = 0;
+		}else{
+			return count;
+		}
+	}
+}

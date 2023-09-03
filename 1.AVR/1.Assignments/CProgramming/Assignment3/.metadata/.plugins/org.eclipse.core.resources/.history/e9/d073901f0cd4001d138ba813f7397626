@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int geometricSeries(int);
+
+int main(){
+
+	int num,result;
+	printf("Welcome to Exercise 8 Program, Please enter a number: ");
+	fflush(stdout);
+	scanf("%d",&num);
+	result = arithmeticSeries(num);
+	printf("The %d term of geometric series %d",num,result);
+
+	return 0;
+}
+int geometricSeries(int num){
+	int count = 1;
+	for(int i = 0;i<num;i++){
+		count*=3;
+	}
+	return count;
+}

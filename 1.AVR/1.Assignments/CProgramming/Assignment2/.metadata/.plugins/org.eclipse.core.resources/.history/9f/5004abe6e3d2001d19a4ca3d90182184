@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void truncatedFloat(float,float);
+
+int main(){
+
+
+	float num1,num2;
+	printf("Welcome to Exercise 13 program, Please enter a number: ");
+	fflush(stdout);
+	scanf("%f %f",&num1,&num2);
+	truncatedFloat(num1,num2);
+
+
+	return 0;
+}
+void truncatedFloat(float num1,float num2){
+	int result;
+	result = (int *) num1+num2;
+	printf("%d",result);
+}

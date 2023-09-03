@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int countOnes(unsigned char);
+
+int main(){
+
+	int num;
+	int result;
+	printf("Welcome to Exercise 15 program, Please enter a number: ");
+	fflush(stdout);
+	scanf("%d",&num);
+	result = powerOfTwo(num);
+	printf("%d",result);
+
+	return 0;
+}
+int countOnes(unsigned char num){
+
+}

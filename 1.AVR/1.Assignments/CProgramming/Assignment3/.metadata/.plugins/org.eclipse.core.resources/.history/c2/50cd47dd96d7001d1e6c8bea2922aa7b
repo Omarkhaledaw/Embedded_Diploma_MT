@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int findSecondLargest(int arr[],int size);
+
+int main(){
+
+	int arr[10];
+	int result;
+
+	printf("Enter elements in the array: ");
+	for(int i=0; i<10; i++)
+	{
+		scanf("%d", &arr[i]);
+	}
+
+	result = findSecondLargest(arr,10);
+
+	printf("Second largest = %d", result);
+
+
+	return 0;
+}
+int findSecondLargest(int arr[],int size){
+	int i = 0;
+	int max = arr[i];
+	int max2;
+
+	for(i = 0;i<size-1;i++){
+		if(max < arr[i]){
+			max = arr[i];
+		}
+	}
+	for(i = 0;i<size-1;i++){
+		if(max > arr[i] && arr[i] > max2 ){
+			max2 = arr[i];
+		}
+	}
+	return max2;
+}

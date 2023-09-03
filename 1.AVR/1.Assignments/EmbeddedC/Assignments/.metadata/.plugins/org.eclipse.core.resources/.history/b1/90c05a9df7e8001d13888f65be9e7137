@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+
+int main(){
+
+
+	return 0;
+}
+void clearBit(int num,int bit){
+	int mask = 0b00000001;
+	num = num & (bit>>mask);
+}

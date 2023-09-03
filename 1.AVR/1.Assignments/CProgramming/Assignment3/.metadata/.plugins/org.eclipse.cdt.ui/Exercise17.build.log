@@ -1,0 +1,7 @@
+15:29:32 **** Rebuild of configuration Debug for project Exercise17 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex17.o "..\\Ex17.c" 
+gcc -o Exercise17.exe Ex17.o 
+
+15:29:32 Build Finished. 0 errors, 0 warnings. (took 484ms)
+

@@ -1,0 +1,7 @@
+16:50:41 **** Incremental Build of configuration Debug for project Exercise7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex7.o "..\\Ex7.c" 
+gcc -o Exercise7.exe Ex7.o 
+
+16:50:42 Build Finished. 0 errors, 0 warnings. (took 451ms)
+

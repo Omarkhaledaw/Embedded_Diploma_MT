@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+#define FORTH_BIT(num) \
+{ \
+	return ((num & 0x00000008)>>3);
+}
+
+int main(){
+
+
+	return 0;
+}

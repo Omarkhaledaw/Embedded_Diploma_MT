@@ -1,0 +1,7 @@
+15:02:27 **** Incremental Build of configuration Debug for project Exercise4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex4.o "..\\Ex4.c" 
+gcc -o Exercise4.exe Ex4.o 
+
+15:02:28 Build Finished. 0 errors, 0 warnings. (took 490ms)
+

@@ -1,0 +1,11 @@
+16:03:22 **** Incremental Build of configuration Debug for project Exercise9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ex9.o "..\\Ex9.c" 
+..\Ex9.c: In function 'changeByPtr':
+..\Ex9.c:18:13: warning: unused variable 'size' [-Wunused-variable]
+   18 |         int size = 0;
+      |             ^~~~
+gcc -o Exercise9.exe Ex9.o 
+
+16:03:23 Build Finished. 0 errors, 1 warnings. (took 483ms)
+

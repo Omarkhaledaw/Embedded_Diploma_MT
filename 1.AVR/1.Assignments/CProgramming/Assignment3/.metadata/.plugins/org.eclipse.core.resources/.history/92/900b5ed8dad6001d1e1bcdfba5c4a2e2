@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int removeDuplicates(int arr_old[], int n_old, int arr_new[], int*n_new);
+
+int main(){
+
+	int a[10] = {1,2,3,3,3,4,4,5,5,5};
+	int b[10];
+	int size = 0;
+	int ret;
+	ret = removeDuplicates(a,10,b,&size);
+	for(int i=0;i<size;i++)
+	{
+		printf("%d,",b[i]);
+	}
+	printf("\n%d",ret);
+
+
+	return 0;
+}
+int removeDuplicates(int arr_old[], int n_old, int arr_new[], int*n_new){
+	if(n_old == 0){
+		return 0;
+	}else{
+		int i;
+		*n_new = 0;
+		for(int i = 0;i<n_old-1;i++){
+			if(arr_old[i] != arr_old[i+1]){
+				arr_new[*n_new] = arr_old[i];
+				(*n_new)++;
+			}
+		}
+		arr_new[*n_new] = arr_old[i];
+		(*n_new)++;
+
+		return 1;
+	}
+}

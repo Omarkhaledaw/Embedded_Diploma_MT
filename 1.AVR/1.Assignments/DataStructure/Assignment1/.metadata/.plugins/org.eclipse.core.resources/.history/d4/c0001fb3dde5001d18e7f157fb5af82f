@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+struct Node {
+	int data;
+	struct Node *next;
+};
+struct Node *head = NULL;
+struct Node *current = NULL;
+struct Node *previous = NULL;
+
+int main(){
+
+
+
+
+	return 0;
+}
+void InsertAtLast(int data){
+	struct Node *link = (struct Node*)malloc(sizeof(struct Node));
+
+	link->data = data;
+	link->next = NULL;
+
+	if(head == NULL){
+		head = link;
+		return;
+	}
+	current = head;
+	while(current->next != NULL){
+		current = current->next;
+	}
+	current->next = link;
+}
+void sizeList(){
+
+	int size = 0;
+	if(head == NULL){
+		size = -1;
+	}else{
+		size = 1;
+		current = head;
+		while(current ->next != NULL){
+			size++;
+			current = current->next;
+		}
+	}
+	printf("Size of the list = %d",size);
+}
