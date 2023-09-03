@@ -34,12 +34,12 @@ Embedded Automotive and AUTOSAR Device Drivers Course
   - Final project to apply the full layered architecture model.
 
 ARM Architecture based on TM4C Micro-controllers Course:
-• ARM Cortex-M Architecture and Programming Model.
-• TM4C Micro-controller GPIO Driver.
-• ARM CortexM3/M4 SysTick Timer Driver.
-• ARM CortexM3/M4 NVIC System:
-  - TM4C Micro-controller Edge Triggered Interrupts.
-  - ARM CortexM3/M4 System Exceptions: PendSV, SVC and SysTick Exceptions.
-  - ARM CortexM3/M4 Fault Exceptions: HardFault, UsageFault, BusFault and MemoryManagement Fault.
-• ARM CortexM3/M4 MPU Driver.
-• TM4C Micro-controller PLL Driver.
+  - ARM Cortex-M Architecture and Programming Model.
+  - TM4C Micro-controller GPIO Driver.
+  - ARM CortexM3/M4 SysTick Timer Driver.
+  - ARM CortexM3/M4 NVIC System:
+    - TM4C Micro-controller Edge Triggered Interrupts.
+    - ARM CortexM3/M4 System Exceptions: PendSV, SVC and SysTick Exceptions.
+    - ARM CortexM3/M4 Fault Exceptions: HardFault, UsageFault, BusFault and MemoryManagement Fault.
+  - ARM CortexM3/M4 MPU Driver.
+  - TM4C Micro-controller PLL Driver.
